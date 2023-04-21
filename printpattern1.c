@@ -12,10 +12,10 @@
 */
 #include<stdio.h>
 int main(void) {
-    int n=10, i , j;
-    for(i=1; i<=n; i++) {
-        for(j=1; j<=i; j++) {
-            printf("%d",n-j);
+    int n=10, i , j;               // variable declaration
+    for(i=1; i<=n; i++) {          //logic for the structure
+        for(j=1; j<=i; j++) {      //logic for the structure
+            printf("%d",n-j);      //logic for the pattern
         }
         printf("\n");
     }
