@@ -18,7 +18,7 @@ int main(void) {
     printf("Enter the number of rows");   //taking no. of rows in input
     scanf("%d",&n);
     if(n>26) {
-        printf("Invalid Input");          //Since,such pattern should not have characters rather than English alphabets
+        printf("Invalid Input");          //Since,such pattern should not have characters rather than English alphabets in upper case
         exit(0);
     }else{
     for(i=1; i<=n; i++) {                 //logic for structure
