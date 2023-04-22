@@ -14,7 +14,7 @@ A B C D E F G H I J
 #include<stdlib.h>
 int main(void) {
     int n,i,j;                            //variable declaration
-    char c=64;                            //variable declaration
+    int c=64;                            //variable declaration
     printf("Enter the number of rows");   //taking no. of rows in input
     scanf("%d",&n);
     if(n>26) {
